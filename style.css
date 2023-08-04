@@ -152,10 +152,6 @@ body {
     }
 }
 
-Note: After combining and successfully running the code, it will give the desired result.
-
-Explanation: First we h
-
 /* Star */
     .star {
     --star-color:orange;
@@ -286,66 +282,14 @@ Explanation: First we h
     top: 0;
     left: 50px;
 }
-
-/* Pacman */
-.pacman {
-    width: 100px;
-    height: 100px;
-    background-color: #607D8B;
-    position: relative;
+            
+.cone {
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 100px solid #32557f;
     border-radius: 50%;
-    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
-    margin: 10px;
-}
-
-.pacman:before {
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 100px;
-    background-color: #607D8B;
-    border-radius: 50%;
-    top: 0;
-    left: 0;
-}
-
-.pacman:after {
-    content: "";
-    position: absolute;
-    width: 25px;
-    height: 50px;
-    background-color: #f0f0f0;
-    border-radius: 50%;
-    top: 25px;
-    left: 50px;
-}
-
-/* Cloud */
-.cloud {
-    width: 100px;
-    height: 60px;
-    background-color: #E91E63;
-    position: relative;
-    border-radius: 50%;
-    margin: 10px;
-}
-
-.cloud:before,
-.cloud:after {
-    content: "";
-    position: absolute;
-    width: 40px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #E91E63;
-    top: -30px;
-}
-
-.cloud:before {
-    left: 10px;
-}
-
-.cloud:after {
-    right: 10px;
-}
-</style>
+  }
+      
+  
